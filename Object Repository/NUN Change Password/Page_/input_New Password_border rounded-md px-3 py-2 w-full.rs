@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_New Password_border rounded-md px-3 py-2 w-full</name>
+   <tag></tag>
+   <elementGuidId>4b0be72e-b5cb-4fb7-8ef9-17e25a0ffd59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='NUN062021']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative > input.border.rounded-md.px-3.py-2.w-full</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^New Password$/ >> internal:role=textbox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>e6c64a0c-1834-46ff-b9f4-5b96905cfde0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>df97eb4b-c6df-4ebc-8b38-040296ab7699</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border rounded-md px-3 py-2 w-full</value>
+      <webElementGuid>679d8cb0-7fc1-43e1-b6ad-fe3bb9804e74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>NUN062021</value>
+      <webElementGuid>68b7f7ae-76ba-4b2f-a187-7390f9185202</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;max-w-sm w-full mx-auto bg-gray-100 min-h-screen&quot;]/div[@class=&quot;p-4&quot;]/div[@class=&quot;bg-white p-6 rounded-lg shadow-md&quot;]/div[@class=&quot;mb-4&quot;]/div[@class=&quot;relative&quot;]/input[@class=&quot;border rounded-md px-3 py-2 w-full&quot;]</value>
+      <webElementGuid>7a68dabd-9ffb-41d4-a2e8-f9b8afa115e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='NUN062021']</value>
+      <webElementGuid>98815200-8c4d-43d6-80de-bb6ff540ecbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div[2]/div/input</value>
+      <webElementGuid>9be28956-da8f-4bb3-b82e-344b1d47b305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>d44e8f8d-e278-4aa3-9ae6-79c8f5f5ceb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password']</value>
+      <webElementGuid>629b854c-4cd1-4aec-8e81-2af259118c39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

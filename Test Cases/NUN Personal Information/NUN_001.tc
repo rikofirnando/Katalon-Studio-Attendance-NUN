@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I wanto change my personal information</description>
+   <name>NUN_001</name>
+   <tag>Postive</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61e2b8e0-5db6-4c1c-82bf-7fdca7315b30</testCaseGuid>
+</TestCaseEntity>

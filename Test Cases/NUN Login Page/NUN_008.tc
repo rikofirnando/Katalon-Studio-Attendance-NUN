@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to log in input username and without input password.</description>
+   <name>NUN_008</name>
+   <tag>Login Page, Scripless, Manual Testing</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ceef6df-738b-4ff2-b001-8a6fb6f0e7da</testCaseGuid>
+</TestCaseEntity>

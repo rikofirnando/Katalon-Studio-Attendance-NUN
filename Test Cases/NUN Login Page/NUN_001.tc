@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to be able to login with valid username and password.</description>
+   <name>NUN_001</name>
+   <tag>Login Page</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dce489d9-f56c-483d-9907-3df93bcd768b</testCaseGuid>
+</TestCaseEntity>

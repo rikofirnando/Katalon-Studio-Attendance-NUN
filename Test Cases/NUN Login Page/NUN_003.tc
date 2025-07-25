@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to log in using valid username and without enter password.</description>
+   <name>NUN_003</name>
+   <tag>Login Page</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>03733d89-2e98-4353-99f2-599ebaf05f3f</testCaseGuid>
+</TestCaseEntity>

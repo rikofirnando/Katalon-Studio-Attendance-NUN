@@ -1,0 +1,58 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('https://attendance.nuncorp.id')
+
+WebUI.click(findTestObject('Personal Information/Page_Login/input_Email atau Username_identifier'))
+
+WebUI.setText(findTestObject('Personal Information/Page_Login/input_Email atau Username_identifier'), 'rikof')
+
+WebUI.click(findTestObject('Personal Information/Page_Login/input_Password_password'))
+
+WebUI.setEncryptedText(findTestObject('Personal Information/Page_Login/input_Password_password'), 'A8cOPH6SZteUignUE2i9PQ==')
+
+WebUI.click(findTestObject('Personal Information/Page_Login/button_Login'))
+
+WebUI.click(findTestObject('Personal Information/Page_/a_Profile'))
+
+WebUI.click(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/div_Informasi Pribadi'))
+
+WebUI.scrollToElement(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/button_Edit'), 
+    0)
+
+WebUI.click(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/button_Edit'))
+
+WebUI.click(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/input_Nama_name'))
+
+WebUI.setText(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/input_Nama_name'), 'Riko')
+
+WebUI.setText(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/input_Nomor Telepon_phone_number'), 
+    '081287037945')
+
+WebUI.click(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/button_Save'))
+
+WebUI.click(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/button_Simpan'))
+
+WebUI.verifyElementText(findTestObject('Personal Information/NUN_001 - Scriptless Edit Personal Information/Page_NUN  Informasi Pribadi/div_Error Failed to update profile'), 
+    'Success')
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

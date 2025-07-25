@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a user, I want to log in using valid username and invalid password.</description>
+   <name>NUN_006</name>
+   <tag>Login Page, Scripless, Manual Testing</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ecffc557-8acc-4013-85c0-b7a5db44d263</testCaseGuid>
+</TestCaseEntity>
